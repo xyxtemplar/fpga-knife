@@ -35,7 +35,7 @@ Atom is a free and open-source text and source code editor for macOS, Linux, and
   -  **linter-vhdl**: VHDL linter.
   https://atom.io/packages/linter-vhdl
   
-  -  **hdl-tb-converter **: Convert a VHDL entity into a component, instance or signal definitions, using the clipboard.
+  -  **hdl-tb-converter**: Convert a VHDL entity into a component, instance or signal definitions, using the clipboard.
   https://atom.io/packages/hdl-tb-converter
 
 - snippets: Snippets are a powerful way to quickly generate commonly needed code syntax from a shortcut.
@@ -114,7 +114,7 @@ All the jobs in the same stage run concurrently (if there are enough runners) an
 
 As soon as a job fails, the entire pipeline fails. There is an exception for this, as we will see below: if a job is marked as manual, then a failure will not make the pipeline fail.
 
-<p align="center">![Pipeline jobs](./images/comp/gitlab-ci-pipeline-1.png)</p>
+![Pipeline jobs](./images/comp/gitlab-ci-pipeline-1.png)
 
 #### GitLab server: artifacts
 
