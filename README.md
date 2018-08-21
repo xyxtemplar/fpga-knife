@@ -23,7 +23,7 @@ Atom is a free and open-source text and source code editor for macOS, Linux, and
   -  **highlight-selected**: Highlights the current word selected when double clicking.
   https://atom.io/packages/highlight-selected
   
-  -  ** git-time-machine**: Visually interact with git commit history for a file.
+  -  **git-time-machine**: Visually interact with git commit history for a file.
   https://atom.io/packages/git-time-machine
   
   -  **sublime-style-column-selection**: Enable Sublime style 'Column Selection'. Just hold 'alt' while you select, or select using your middle mouse button.
@@ -114,10 +114,7 @@ All the jobs in the same stage run concurrently (if there are enough runners) an
 
 As soon as a job fails, the entire pipeline fails. There is an exception for this, as we will see below: if a job is marked as manual, then a failure will not make the pipeline fail.
 
-<p align="center">
-![Pipeline jobs](./images/comp/gitlab-ci-pipeline-1.png)
-</p>
-
+<p align="center">![Pipeline jobs](./images/comp/gitlab-ci-pipeline-1.png)</p>
 
 #### GitLab server: artifacts
 
