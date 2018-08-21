@@ -75,6 +75,10 @@ Doxygen is the de facto standard tool for generating documentation from annotate
 
 #### Cosimulation: GNURadio
 
+GNU Radio is a free & open-source software development toolkit that provides signal processing blocks. It can be used without hardware in a simulation-like environment. It is widely used in research, industry, academia, government, and hobbyist environments.
+
+Extending GNU Radio is also quite easy; if you find a specific block that is missing, you can quickly create and add it.
+
 ![Issues](./images/comp/gnuradio.png)
 
 ### Rigth: automated tasks
