@@ -107,8 +107,7 @@ Every commit that is pushed to GitLab generates a pipeline attached to that comm
 
 https://about.gitlab.com/2018/01/22/a-beginners-guide-to-continuous-integration/
 
-
-!Pipeline](./images/comp/gitlab-ci-pipeline.png)
+![Pipeline](./images/comp/gitlab-ci-pipeline.png)
 
 All the jobs in the same stage run concurrently (if there are enough runners) and the next stage begins only if all the jobs from the previous stage have finished with success.
 
